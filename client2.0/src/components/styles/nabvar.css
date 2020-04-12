@@ -1,0 +1,52 @@
+.bg-nabvar {
+  background: #007888;
+  color: #fff;
+}
+
+.third-container {
+  background-color: #008fa1;
+  padding: 10px 25px;
+}
+
+.navbar-css {
+  color: rgba(255,255,255,0.8)!important;
+  border-color: #17a2b8!important;
+}
+
+.navbar-css:hover {
+  color: white!important;
+  border-color: white!important;
+  border-bottom: 2px solid white;
+}
+
+.active {
+  color: white!important;
+  border-color: white!important;
+  border-bottom: 2px solid white;
+}
+
+.a-customize {
+  color: #fff;
+}
+
+.a-customize:hover {
+  color: rgba(255,255,255,0.8)!important;
+}
+
+.link-to {
+  position: absolute;
+  z-index: 2;
+  -webkit-animation: nabva-mover 1s infinite  alternate;
+  animation: nabva-mover 1s infinite  alternate;
+  -webkit-animation: nabva-mover 1s infinite  alternate;
+    animation: nabva-mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes nabva-mover {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(10px); }
+}
+@keyframes nabva-mover {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(10px); }
+}

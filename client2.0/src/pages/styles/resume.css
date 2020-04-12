@@ -1,0 +1,131 @@
+.scroll-down {
+  color: #00BCD4;
+  position: absolute;
+  z-index: 2;
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-40px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-40px); }
+}
+
+.line-bt-experience {
+  width: 9rem;
+  border-top: 2px solid #00BCD4;
+}
+
+.card-resume {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  padding: 45px;
+  background: #fff;
+  margin-bottom: 45px;
+}
+
+.line-lt-experience {
+  border-left: 3px solid #00BCD4 ;
+}
+
+.item h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.item:before {
+  content: "";
+  position: absolute;
+  left: -13px;
+  top: 0px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #fff;
+  border: 3px solid #00BCD4;
+}
+
+.item:after {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #00BCD4;
+  z-index: 10;
+}
+
+.link-job {
+  text-decoration: none!important;
+  color: #00BCD4;
+}
+
+.link-job:hover {
+  text-decoration: none!important;
+  color: #8a8a8a;
+}
+
+.direction {
+  color: #8a8a8a;
+}
+
+.title-experience {
+  font-size: 18px;
+  color: #00BCD4;
+  margin-bottom: 2px;
+}
+
+.time {
+  color: #8a8a8a;
+}
+
+.job-desc {
+  color: #666;
+  margin-top: 2rem;
+}
+
+.line-education:after {
+  content: '';
+  top: 0;
+  left: 50px;
+  height: 100%;
+  width: 4px;
+  background: #00BCD4;
+}
+
+.rounded-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 3px solid #00BCD4;
+}
+
+.header-education-card {
+  background-color: #00BCD4;
+  color:white;
+}

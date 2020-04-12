@@ -1,0 +1,22 @@
+.bg-home {
+  background: #00a5bb;
+  color: #fff;
+}
+
+.first-container {
+  padding-top: 2rem;
+  padding-bottom: 11rem;
+  background-color: #00BCD4;
+}
+
+.second-container {
+  padding-bottom: 3rem;
+}
+
+.img-mr-profile {
+  margin-top: -6rem;
+}
+
+.img-rounded-border {
+  border: 5px solid #fff;
+}
