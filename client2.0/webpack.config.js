@@ -14,7 +14,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '../public'),
     filename: 'js/[name].js',
-    publicPath: 'http://localhost:3000/',
+    publicPath: 'https://portfolio2-staging.herokuapp.com/',
     chunkFilename: 'js/[id].[chunkhash].js'
   },
   optimization: {
@@ -66,7 +66,7 @@ module.exports = {
     new AddAssetHtmlPlugin({
       filepath: path.resolve(__dirname, '../public/js/*.dll.js'),
       outputPath: 'js',
-      publicPath: 'http://localhost:3000/js'
+      publicPath: 'https://portfolio2-staging.herokuapp.com//'
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['**/app.*'],
