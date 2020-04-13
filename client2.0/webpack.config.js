@@ -66,7 +66,7 @@ module.exports = {
     new AddAssetHtmlPlugin({
       filepath: path.resolve(__dirname, '../public/js/*.dll.js'),
       outputPath: 'js',
-      publicPath: 'https://portfolio2-staging.herokuapp.com//'
+      publicPath: 'https://portfolio2-staging.herokuapp.com/js'
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['**/app.*'],
