@@ -1,6 +1,7 @@
 import React from 'react'
-import { Modal, Form, Row, Col, Button } from "react-bootstrap"
-import { FaTelegramPlane, FaDownload } from "react-icons/fa";
+import { Modal, Form, Col, Button } from "react-bootstrap"
+import { FaTelegramPlane } from "react-icons/fa";
+import swal from 'sweetalert'
 
 function ModalEmail(props) {
   
@@ -12,7 +13,7 @@ function ModalEmail(props) {
       e.preventDefault()
       e.stopPropagation()
     }
-
+    //swal("Enviado!", "", "success")
     setValidated(true)
   }
 

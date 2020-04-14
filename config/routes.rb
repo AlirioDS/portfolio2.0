@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  post "/graphql", to: "graphql#execute"
+  scope '/api' do
+  end
 end

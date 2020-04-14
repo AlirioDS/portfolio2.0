@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import "./styles/resume.css"
 import { Card, Container, Row, Col } from 'react-bootstrap'
-import { FaMapMarkerAlt, FaExternalLinkAlt, FaHandPointer, FaGlobeAfrica } from "react-icons/fa"
+import { FaMapMarkerAlt, FaExternalLinkAlt, FaHandPointer } from "react-icons/fa"
 import { MdSchool, MdAccountBalance } from "react-icons/md"
 
 export default class Resume extends Component {
@@ -82,7 +82,7 @@ export default class Resume extends Component {
                   <p>Venezuela</p>
                 </Col>
                 <Col sm={12} className="pb-4">
-                  <h3 className="title-experience">Desarrollador Junior</h3>
+                  <h3 className="title-experience">Desarrollador Full Stack</h3>
                   <div className="time">2016 - 2017</div>
                 </Col>
               </Row>
@@ -109,7 +109,7 @@ export default class Resume extends Component {
                 </Col>
                 <Col sm={12}>
                   <h3 className="title-experience">Especialista en IT</h3>
-                  <div className="time">2013 - 2014</div>
+                  <div className="time">2014 - 2015</div>
                 </Col>
               </Row>
             </Card.Body>

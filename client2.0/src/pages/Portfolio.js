@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import './styles/portfolio.css'
 import { Card, Container, Row, Col } from 'react-bootstrap'
@@ -31,7 +33,12 @@ export default class Portfolio extends Component {
                 <Col xs={12} md={6} className="element-item pt-4">
                   <Card>
                     <div className="hover-content">
-                      <Card.Img src={diasan} alt="Empresa de Electricidad" className="animation-l" />
+                      <LazyLoadImage
+                        alt="Empresa de Electricidad"
+                        src={diasan}
+                        className="animation-l card-img"
+                        effect="blur"
+                      />
                       <div className="overlay animation">
                         <div className="container-icon">
                           <div className="icon-link">
@@ -55,7 +62,12 @@ export default class Portfolio extends Component {
                 <Col xs={12} md={6} className="element-item pt-4">
                   <Card>
                     <div className="hover-content">
-                      <Card.Img src={eventify} alt="Aplicacion de Tickets" className="animation-l" />
+                      <LazyLoadImage
+                        alt="Aplicacion de Tickets"
+                        src={eventify}
+                        className="animation-l card-img"
+                        effect="blur"
+                      />
                       <div className="overlay animation">
                         <div className="container-icon">
                           <div className="icon-link">
@@ -79,7 +91,12 @@ export default class Portfolio extends Component {
                 <Col xs={12} md={6} className="element-item pt-4">
                   <Card>
                     <div className="hover-content">
-                      <Card.Img src={exchange} alt="Aplicacion para el filtro y calculo de tasas de localbitcoins" className="animation-l" />
+                      <LazyLoadImage
+                        alt="Aplicacion para el filtro y calculo de tasas de localbitcoins"
+                        src={exchange}
+                        className="animation-l card-img"
+                        effect="blur"
+                      />
                       <div className="overlay animation">
                         <div className="container-icon">
                           <div className="icon-link">
@@ -103,7 +120,12 @@ export default class Portfolio extends Component {
                 <Col xs={12} md={6} className="element-item pt-4">
                   <Card>
                     <div className="hover-content">
-                      <Card.Img src={jorgesulbaran} alt="Pagina Personal Fotografía" className="animation-l" />
+                      <LazyLoadImage
+                        alt="Pagina Personal Fotografía"
+                        src={jorgesulbaran}
+                        className="animation-l card-img"
+                        effect="blur"
+                      />
                       <div className="overlay animation">
                         <div className="container-icon">
                           <div className="icon-link">
@@ -122,7 +144,12 @@ export default class Portfolio extends Component {
                 <Col xs={12} md={6} className="element-item pt-4">
                   <Card>
                     <div className="hover-content">
-                      <Card.Img src={notes} alt="Aplicacion de Notas" className="animation-l" />
+                      <LazyLoadImage
+                        alt="Aplicacion de Notas"
+                        src={notes}
+                        className="animation-l card-img"
+                        effect="blur"
+                      />
                       <div className="overlay animation">
                         <div className="container-icon">
                           <div className="icon-link">
@@ -146,7 +173,12 @@ export default class Portfolio extends Component {
                 <Col xs={12} md={6} className="element-item pt-4">
                   <Card>
                     <div className="hover-content">
-                      <Card.Img src={portfolio} alt="Portafolio Antiguo" className="animation-l" />
+                      <LazyLoadImage
+                        alt="Portafolio Antiguo"
+                        src={portfolio}
+                        className="animation-l card-img"
+                        effect="blur"
+                      />
                       <div className="overlay animation">
                         <div className="container-icon">
                           <div className="icon-link">
@@ -170,7 +202,12 @@ export default class Portfolio extends Component {
                 <Col xs={12} md={6} className="element-item pt-4">
                   <Card>
                     <div className="hover-content">
-                      <Card.Img src={zavher} alt="Ecommerce creado en wordpress" className="animation-l" />
+                      <LazyLoadImage
+                        alt="Ecommerce creado en wordpress"
+                        src={zavher}
+                        className="animation-l card-img"
+                        effect="blur"
+                      />
                       <div className="overlay animation">
                         <div className="container-icon">
                           <div className="icon-link">
